@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@my-js": ["apps/js-lib/src/index.ts"],
+      "@my-nx-project/js-sdk": ["libs/src/index.ts"],
+      "@my-nx-project/jslib": ["apps/src/index.ts"],
+      "@root": ["./*"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
